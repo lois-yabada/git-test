@@ -11,4 +11,25 @@ git remote add origin master "url du repository"
 le repo distant existe dejà 
 1 on utilise la commande : git clone "url du repository"
 2 -3 -4 pas
-5
+5 git add . => pour un epremiere validation des modification
+6 git commit -m "message du commit" => validation des modificationis
+7 git pull
+8 git -u origin master
+
+
+//////////////////////////////////////////////
+
+git log => pour voir l'historique des modificationis
+git checkout -b nom_branche => créer une branche et basculer dessus
+git checkout -d nom_branche => supprimer une branche
+
+
+
+Exercice :
+
+creer une branche pour la nouvelle fonctionnalite connexion
+dans cette branche creer un fichier connexion.html
+mettre un formulaire de connexion dedans
+valider les modififications
+fusionner la branche connexion à la branche master
+et envoyer ver le server guthub
