@@ -1,0 +1,14 @@
+1 creation du repository en local
+2 creation du compte [(github gitlab bitburket), (si pas de compte)] 
+3 creation d'un repository sur le serveur ( distant)
+4 lier le repo distant et le repo local avec la commande : 
+git remote add origin master "url du repository"
+5 git add . => pour une premiere validation des modification 
+6 git commit -m "message du commit" => validation des modificationis
+7 git push - u origin master
+
+
+le repo distant existe dejà 
+1 on utilise la commande : git clone "url du repository"
+2 -3 -4 pas
+5
